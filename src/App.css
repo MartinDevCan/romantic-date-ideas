@@ -1,38 +1,65 @@
-.App {
+body {
+  background-image: url(https://images.unsplash.com/photo-1517867065801-e20f409696b0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  width: 65%;
+  background-color: #d6acb5;
+  margin-left: 20%;
+  border-right: 8px solid rgb(70, 73, 70);
+  border-left: 8px solid rgb(70, 73, 70);
+}
+
+.btn {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+h1 {
+  font-family: 'Dancing Script', cursive;
+  font-size: 50px;
+  letter-spacing: 6px;
+  color: rgb(90, 33, 90);
+}
+
+h2 {
+  font-family: 'Dancing Script', cursive;
+  margin-top: 70px;
+}
+
+p {
+  width: 50%;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+img {
+  border: 4px solid rgb(70, 73, 70);
+  width: 400px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.trashIcon {
+  font-size: 24px;
+  margin-top: 2px;
+  color: rgb(70, 73, 70);
+  border: none;
+  background-color: transparent;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.trashIcon:hover {
+  color: black;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.delAll {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  background-color: rgb(70, 73, 70);
+  color: #d6acb5;
+  border-radius: 5px;
+  padding: 3px 15px;
+  border: none;
 }
